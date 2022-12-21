@@ -15,15 +15,15 @@ public class GradeController {
             return new ResponseEntity<>("Percentage must be in range 0-100", HttpStatus.INTERNAL_SERVER_ERROR);
         }
         if(percentage < 50) {
-            return new ResponseEntity<>("1", HttpStatus.OK);
+            return new ResponseEntity<>("5", HttpStatus.OK);
         } else if (percentage < 63) {
-            return new ResponseEntity<>("2", HttpStatus.OK);
+            return new ResponseEntity<>("4", HttpStatus.OK);
         } else if (percentage < 75) {
             return new ResponseEntity<>("3", HttpStatus.OK);
         } else if (percentage < 88) {
-            return new ResponseEntity<>("4", HttpStatus.OK);
+            return new ResponseEntity<>("2", HttpStatus.OK);
         } else {
-            return new ResponseEntity<>("5", HttpStatus.OK);
+            return new ResponseEntity<>("1", HttpStatus.OK);
         }
     }
 }
