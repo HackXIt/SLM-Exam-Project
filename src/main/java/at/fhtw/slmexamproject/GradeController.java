@@ -1,4 +1,4 @@
-﻿package at.fhtw.slmexamproject;
+package at.fhtw.slmexamproject;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
