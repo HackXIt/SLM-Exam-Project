@@ -1,3 +1,6 @@
+# BITTE PDF IN ORDNER DOC ÖFFNEN, DIESES README IGNORIEREN
+
+
 # Exam documentation
 
 - Projekt in IntelliJ erstellen
